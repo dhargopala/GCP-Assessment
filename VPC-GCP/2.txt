@@ -1,0 +1,9 @@
+Steps to create a new instance in a different zone are:
+
+1.	Click create instance
+2.	Name the instance
+3.	Select the region and select different zone
+4.	Select the machine type as F1 Micro
+5.	Configure any other details as per need (Storage etc.) 
+6.	Check the network interface and set the external IP to none (Thus creating a private instance)
+7.	Click create

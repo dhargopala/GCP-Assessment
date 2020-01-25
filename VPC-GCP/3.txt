@@ -1,0 +1,9 @@
+Steps to create Cloud NAT:
+
+1.	Go to Cloud NAT
+2.	Give the gateway name
+3.	Select VPC Network 
+4.	Specify region
+5.	Create a cloud router
+6.	In NAT Mapping select ‘Primary ranges for all subnets’ (Since primary ranges is for compute engines and secondary ranges is for Kubernetes)
+7.	Click create
