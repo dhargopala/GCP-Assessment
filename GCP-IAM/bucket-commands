@@ -1,0 +1,30 @@
+Create a bucket:
+
+ gsutil mb gs://new_bucket/
+
+Transfer files:
+
+gsutil cp gs://source_file gs://destination_bucket
+
+PC to bucket:
+
+1) Upload File to CLI
+2) gsutil cp local_file_address gs://destination_bucket
+
+Bucket to local:
+
+1) mkdir new_directory
+2) gsutil cp gs://new_bucket/file_name new_directory
+
+List all objetcs:
+
+gsutil ls -r gs://new_bucket/
+
+Delete Objects:
+
+gsutil rm -r gs://new_bucket/
+
+
+
+
+
