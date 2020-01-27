@@ -1,0 +1,15 @@
+First Question
+
+1. In Stackdriver Logging, at the top of Log Exports page, select on Create export
+2. Click on Edit Export
+3. Enter the Sink name, service and destination
+In Sink Service, we select a destination service, here we click on BigQuery
+In Sink Destination, select or create the particular dataset to receive the exported logs.
+4. Click on Update Sink to create a sink
+
+For BigQuery-
+
+1. GO to BigQuery UI
+2. Select the dataset used as the sink's destination
+3.Select one of the dataset's tables.
+The log entries are visible on the Details tab.
